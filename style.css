@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.main-contanier{
+    padding: 30px;
+}
+.nav-section{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color:  #FBFBFB;
+    
+}
+.nav-left{
+    width: 30%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-leftleft{
+    width: 50%;
+}
+.nav-leftleft img{
+     width: 50%;
+}
+.nav-rightright{
+    width: 15%;
+}
+.nav-right{
+    width: 70%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-right .nav-leftleft{
+    width: 100%;
+    height: 10vh;
+}
+.nav-right .nav-leftleft ul{
+    width: 60%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.nav-right .nav-rightright {
+    width: 10%;
+    height: 10vh;
+
+}
+.nav-right .nav-rightright span{
+    width: 50%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+.hero-contanier{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    background-image: url("./hand-painted-watercolor-pastel-sky-background_23-2148902771.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero-contanier .left{
+  width: 30%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid  #c4b4b4;
+  
+  
+  justify-content: center;
+}
+.hero-contanier .left h4{
+    font-size: 20px;
+}
+.hero-contanier .right{
+    width: 70%;
+    height: 40vh;
+    /* background-image: url("https://static.vecteezy.com/system/resources/previews/003/623/626/non_2x/sunset-lake-landscape-illustration-free-vector.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    
+}
+.hero-contanier .right h1{
+    font-size: 50px;
+}
+.hero-contanier .right p{
+    font-size: 20px;
+}
+.contanier2{
+     width: 100%;
+     height: 20vh;
+     display: flex;
+     align-items: center;
+}
+.contanier2 .left2{
+    width: 30%;
+    height: 20vh;
+    border-right: 1px solid #c4b4b4 ;
+    background-color: #FBFBFB;
+}
+.contanier2 .right2{
+    width: 70%;
+    height: 20vh;
+    display: flex;
+}
+.box{
+    width: 33.33%;
+    height: 20vh;
+    border: 1px solid #FEFBFB;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.box h3{
+    font-size: 20px;
+    margin: 10px;
+}
+.box p{
+    margin-left: 12px;
+    margin-top: 5px;
+}
+.hero-contanier .left h4{
+    padding: 10px;
+}
+.nav-leftleft .nav-hide{
+    display: none;
+}
+@media screen and (max-width:768px){
+    .main-contanier{
+        width: 100%;
+        height: auto;
+    }
+    .nav-section{
+        width: 100%;
+        height: auto;
+    }
+    .nav-left .nav-leftleft{
+        width: 100%;
+    }
+    .nav-left .nav-leftleft img{
+        width: 60%;
+    }
+    .nav-left .nav-rightright{
+        display: none;
+    }
+    .nav-right{
+        display: none;
+    }
+    .hero-contanier{
+        width: 100%;
+        height: auto;
+        
+    }
+    .hero-contanier .left{
+        font-size: larger;
+    }
+    .hero-contanier .right h1{
+        font-size: 25px;
+    }
+    .hero-contanier .right p{
+        font-size: 12px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+    .contanier2{
+        width: 100%;
+        height: auto;
+        
+    }
+    .contanier2 .right2{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .right2 .box{
+        width:100% ;
+        height: 25vh;
+        border-left: 1px solid #c4b4b4;
+        border-bottom: 1px solid #c4b4b4;
+        border-right:1px solid #c4b4b4 ;
+    }
+    .left2{
+        width: 100%;
+    }
+    .left{
+       display: none ; 
+    }
+    
+    
+    
+
+}
